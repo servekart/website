@@ -322,10 +322,21 @@ input.input100 {
 [ Background ]*/
 .bg0 {background-color: #fff;}
 .bg1 {background-color: #57b846;}
-.bg3 {background-color: #3b5998;}
-.bg4 {background-color: #1da1f2;}
-.bg5 {background-color: #cd201f;}
+.bg3 {
+    background-color: #cfcdcd;
+}
 
+.bg4 {
+    background-color: #1da1f2;
+}
+
+.bg5 {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
 .bg-img1 {
   background-position: center;
   background-repeat: no-repeat;
