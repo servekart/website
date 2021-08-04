@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
+
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
+
+  <body>
+    <div class="body-container">
+      <div class="row">
+        <nav class="navbar">
+          <div class="circle circle-nav-right"></div>
+          <img
+            class="navbar__logo"
+            src="assets/shared/desktop/logo.svg"
+            alt="Pay API Logo"
+          />
+          <ul class="navbar__list">
+            <li class="navbar__list-item">
+              <a href="pricing.html">Pricing</a>
+            </li>
+            <li class="navbar__list-item"><a href="about.html">About</a></li>
+            <li class="navbar__list-item">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <a href="#" class="navbar__button">Schedule a Demo</a>
+        </nav>
+      </div>
+      <div class="row">
+        <header class="header flex-row">
+          <div class="left">
+            <h1 class="heading heading--primary">
+              Start building with our APIs for absolutely free.
+            </h1>
+            <form class="form">
+              <input
+                class="form__input"
+                name="email"
+                placeholder="Enter email address"
+                aria-labelledby="schedule-demo"
+              />
+              <button id="schedule-demo" class="form__input-button">
+                Schedule a Demo
+              </button>
+            </form>
+            <p>Have any questions? <a href="#" class="link">Contact Us</a></p>
+          </div>
+          <div class="right">
+            <img
+              class="header__img--phone"
+              alt="phone"
+              src="assets/home/desktop/illustration-phone-mockup.svg"
+            />
+          </div>
+        </header>
+      </div>
+
+      <div class="clients-box">
+        <div class="row">
+          <section class="clients">
+            <div class="circle circle-clients-left"></div>
+            <div class="clients__text">
+              <h2 class="heading heading--secondary">Who we work with</h2>
+              <p>
+                Today, millions of people around the world have successfully
+                connected their accounts to apps they love using our API. We
+                provide developers with the tools they need to create easy and
+                accessible experiences for their users.
+              </p>
+              <a href="#" class="button-primary">About Us</a>
+            </div>
+            <div class="clients__grid">
+              <img
+                src="assets/shared/desktop/hewlett-packard.svg"
+                alt="hewlett packard"
+                class="clients__logo"
+              />
+              <img
+                src="assets/shared/desktop/microsoft.svg"
+                alt="microsoft"
+                class="clients__logo"
+              />
+              <img
+                src="assets/shared/desktop/oracle.svg"
+                alt="oracle"
+                class="clients__logo"
+              />
+              <img
+                src="assets/shared/desktop/nvidia.svg"
+                alt="nvidia"
+                class="clients__logo"
+              />
+              <img
+                src="assets/shared/desktop/tesla.svg"
+                alt="tesla"
+                class="clients__logo"
+              />
+              <img
+                src="assets/shared/desktop/google.svg"
+                alt="google"
+                class="clients__logo"
+              />
+            </div>
+            <div class="clients__circle"></div>
+          </section>
+        </div>
+      </div>
+
+      <div class="row">
+        <section class="features">
+          <img
+            class="features__img--1"
+            src="assets/home/desktop/illustration-easy-to-implement.svg"
+            alt="feature-code-window"
+          />
+          <div class="features__text--1">
+            <h2 class="heading heading--secondary">Easy to implement</h2>
+            <p>
+              Our API comes with just a few lines of code. You’ll be up and
+              running in no time. We built our documentation page to integrate
+              payments functionality with ease.
+            </p>
+          </div>
+          <div class="features__text--2">
+            <h2 class="heading heading--secondary">Simple UI & UX</h2>
+            <p>
+              Our pre-built form is easy to integrate in your app or website’s
+              checkout flow and designed to optimize conversion.
+            </p>
+          </div>
+          <img
+            class="features__img--2"
+            src="assets/home/desktop/illustration-simple-ui.svg"
+            alt="feature-phones"
+          />
+          <div class="circle circle-features-right"></div>
+          <div class="feature__small-container">
+            <div class="feature__small">
+              <img
+                src="assets/home/desktop/icon-personal-finances.svg"
+                alt="finances icon"
+              />
+              <h4>Personal Finances</h4>
+              <p>
+                Consolidate financial data from multiple sources and categorize
+                transactions up to 2 years of history. Analyze reports to
+                reconcile activities in your account.
+              </p>
+            </div>
+            <div class="feature__small">
+              <img
+                src="assets/home/desktop/icon-banking-and-coverage.svg"
+                alt="banking icon"
+              />
+              <h4>Banking & Coverage</h4>
+              <p>
+                With our platform, you can speed up account onboarding and
+                support ongoing payments for checking, savings, credit card, and
+                brokerage accounts.
+              </p>
+            </div>
+            <div class="feature__small">
+              <img
+                src="assets/home/desktop/icon-consumer-payments.svg"
+                alt="payments icon"
+              />
+              <h4>Consumer Payments</h4>
+              <p>
+                It’s easier to set up secure bank payments with us through a
+                flow designed with the user experience in mind. Customers could
+                instantly authenticate their account.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="row request-demo">
+        <h2 class="heading heading--secondary">Ready to start?</h2>
+        <form class="form">
+          <input
+            class="form__input"
+            name="email"
+            placeholder="Enter email address"
+            aria-labelledby="schedule-demo-footer"
+          />
+          <button id="schedule-demo-footer" class="form__input-button">
+            Schedule a Demo
+          </button>
+        </form>
+      </div>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="footer__flex">
+            <img class="footer__logo" src="assets/shared/desktop/logo.svg" />
+            <nav class="footer__nav">
+              <ul class="navbar__list">
+                <li class="navbar__list-item"><a href="pricing">Pricing</a></li>
+                <li class="navbar__list-item"><a href="about">About</a></li>
+                <li class="navbar__list-item"><a href="contact">Contact</a></li>
+              </ul>
+            </nav>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <img src="assets/shared/desktop/facebook.svg" />
+              </li>
+              <li class="footer__social-item">
+                <img src="assets/shared/desktop/twitter.svg" />
+              </li>
+              <li class="footer__social-item">
+                <img src="assets/shared/desktop/linkedin.svg" />
+              </li>
+            </ul>
+            <div class="circle circle-footer-right"></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
