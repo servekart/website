@@ -5,7 +5,7 @@
   
     --circle-radius: 900px;
   
-    --color-red: #47ABD0;
+    --color-red: #2895bd;
     --color-red-light: #5abfe4;
     --color-white: #fbfcfe;
     --color-blue-light: #5077B5;
@@ -110,7 +110,10 @@
     color: var(--color-white);
     margin-top: 3rem;
   }
-  
+  .market-container {
+    height: 80vh;
+  }
+
   .button-primary:hover,
   .button-primary:active {
     padding: 1.1rem 1.5rem;
@@ -132,6 +135,7 @@
     width: 100vw;
   }
   
+
   .flex-row {
     display: flex;
     justify-content: left;
@@ -197,6 +201,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #2895bd; */
   }
   
   .navbar__logo {
@@ -210,6 +215,7 @@
   
   .navbar__list-item {
     margin-right: 3rem;
+    align-self: center;
   }
   
   .navbar__list-item a:link,
@@ -281,8 +287,10 @@
     align-items: center;
   }
   
-  .header__img--phone {
+  .header__img--market {
     transform: translateX(10rem);
+    /* height: 80vh;
+    width: 60vw; */
   }
   
   .header p {
@@ -461,6 +469,9 @@
     overflow: hidden;
     width: 100vw;
   }
+  #footer-logo {
+    margin-right: 6em;
+  }
   
   .footer__flex {
     display: flex;
@@ -469,7 +480,9 @@
   }
   
   .footer__logo {
-    margin-right: 6rem;
+    margin-right: 0.5rem;
+    height: 50px;
+    width: 30px;
   }
   
   .footer .navbar__list {
@@ -704,7 +717,7 @@
       padding: 0;
     }
   
-    .header__img--phone {
+    .header__img--market {
       transform: none;
     }
   
@@ -866,7 +879,7 @@
       text-align: center;
     }
   
-    .header__img--phone{
+    .header__img--market{
       margin-left: 5.5rem;
     }
   
