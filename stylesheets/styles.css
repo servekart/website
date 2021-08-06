@@ -287,7 +287,7 @@
     align-items: center;
   }
   
-  .header__img--market {
+  .header__img__market {
     transform: translateX(10rem);
     /* height: 80vh;
     width: 60vw; */
@@ -717,7 +717,7 @@
       padding: 0;
     }
   
-    .header__img--market {
+    .header__img__market {
       transform: none;
     }
   
@@ -879,8 +879,9 @@
       text-align: center;
     }
   
-    .header__img--market{
+    .header__img__market{
       margin-left: 5.5rem;
+      height: 320px;
     }
   
     .link{
