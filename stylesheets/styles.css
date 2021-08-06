@@ -458,6 +458,10 @@
     flex: 1;
   }
   
+  /* .download-img-div{
+    height: 30vh;
+  } */
+
   /* //////////////////////FOOTER ///////////////////////////////////*/
   
   .footer {
@@ -888,6 +892,10 @@
       font-weight: 700;
     }
   
+    .market-container {
+      height: 50vh;
+    }
+
     .form, .request-demo form{
       display: flex;
       flex-direction: column;
