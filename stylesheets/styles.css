@@ -464,6 +464,11 @@
 
   /* //////////////////////FOOTER ///////////////////////////////////*/
   
+  .download-img-div {
+    /* background-color: yellow; */
+    align-self: flex-end;
+  }
+
   .footer {
     margin-top: 5rem;
     font-size: 1.2rem;
