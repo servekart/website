@@ -5,11 +5,11 @@
   
     --circle-radius: 900px;
   
-    --color-red: #2895bd;
-    --color-red-light: #5abfe4;
+    --color-red: #5053B8;
+    --color-red-light: #6d70c7;
     --color-white: #fbfcfe;
     --color-blue-light: #5077B5;
-    --color-blue: #5053B8;
+    --color-blue: black;
     --color-blue-dark: #09145c;
   }
 /* :root {
@@ -86,6 +86,7 @@
     font-size: 6rem;
     margin-bottom: 2rem;
     max-width: 750px;
+    /* text-align: center; */
   }
   
   .heading--secondary {
