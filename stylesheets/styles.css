@@ -12,21 +12,7 @@
     --color-blue: black;
     --color-blue-dark: #09145c;
   }
-/* :root {
-    --width-sm: 600px;
-    --width-md: 1100px;
-    --width-lg: 1440px;
-  
-    --circle-radius: 900px;
-  
-    --color-red: #ba4270;
-    --color-red-light: #da6d97;
-    --color-white: #fbfcfe;
-    --color-blue-light: #6c8294;
-    --color-blue: #36536b;
-    --color-blue-dark: #1b262f;
-  } */
-  
+
   *,
   *::before,
   *::after {
@@ -51,12 +37,14 @@
   
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
   
   body {
     font-family: "Public-sans", sans-serif;
     font-size: 1.5rem;
     color: var(--color-blue);
+    text-align: justify;
     background-color: var(--color-white);
     max-width: 100%;
   }
@@ -80,6 +68,7 @@
     margin: 0;
     padding: 0;
     font-family: "DM Serif Display", serif;
+    text-align: left;
   }
   
   .heading--primary {
@@ -264,7 +253,7 @@
     right: -400px;
     z-index: -2;
   }
-  /*////////////////////////HEADER //////////////////////////*/
+  /*////////////////////////////////////////////////////////HEADER ///////////////////////////////////////////////////////////////*/
   
   .header {
     display: flex;
@@ -298,7 +287,7 @@
     padding-left: 2rem;
   }
   
-  /*/ //////////////// FORMS  /////////////////////////*/
+  /*/ ////////////////////////////////////////////////// FORMS  ////////////////////////////////////////////////////////////////*/
   
   .form {
     position: relative;
@@ -448,7 +437,7 @@
     font-weight: 600;
   }
   
-  /*////////REQUEST DEMO ///////////////////////////////////////*/
+  /*////////////////////////////////////////////REQUEST DEMO //////////////////////////////////////////////////////////////*/
   
   .request-demo {
     margin-top: 10rem;
@@ -459,17 +448,26 @@
     flex: 1;
   }
   
-  /* .download-img-div{
-    height: 30vh;
-  } */
 
-  /* //////////////////////FOOTER ///////////////////////////////////*/
+  /* ///////////////////////////////////////////////////////////DOWNLOAD SEC ///////////////////////////////////////////////////////////*/
   
+  .download-sec{
+    margin-top: 16rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .download-img-div-left img {
+    display: flex;
+    width: 300px;
+  }
   .download-img-div {
-    /* background-color: yellow; */
     align-self: flex-end;
   }
-
+  
+  /* ///////////////////////////////////////////////////////////FOOTER ///////////////////////////////////////////////////////////*/
   .footer {
     margin-top: 5rem;
     font-size: 1.2rem;
@@ -679,7 +677,7 @@
     margin-bottom: 5rem;
   }
   
-  /*/ /////////////////////////////////////////////////////////////////*/
+  /*/ /////////////////////////////////////////////////   PHONE SCREEN   ////////////////////////////////////////////////////////*/
   
   @media only screen and (max-width: 1100px) {
     html {
