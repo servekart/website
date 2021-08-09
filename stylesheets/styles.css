@@ -12,7 +12,11 @@
     --color-blue: black;
     --color-blue-dark: #09145c;
   }
-
+  @font-face {
+    font-family: Lucida-Sans-Regular;
+    src: url("../assets/fonts/lucida-sans/Lucida\ Sans\ Regular.ttf");
+  }
+  
   *,
   *::before,
   *::after {
@@ -37,12 +41,14 @@
   
   html {
     font-size: 62.5%;
+    max-width: 100%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
   }
   
   body {
-    font-family: "Lucida Sans Regular";
-    font-size: 1.7rem;
+    font-family: Lucida-Sans-Regular;
+    font-size: 1.9rem;
     color: var(--color-blue);
     text-align: justify;
     background-color: var(--color-white);
@@ -67,14 +73,14 @@
   .heading {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat", sans-serif;
     /* font-family: "DM Serif Display", serif; */
     text-align: left;
   }
   
   .heading--primary {
-    font-size: 6rem;
-    margin-bottom: 2rem;
+    font-size: 5.5rem;
+    margin-bottom: 4rem;
     max-width: 750px;
     /* text-align: center; */
   }
@@ -200,11 +206,21 @@
   /*COMPONENTS */
   
   .navbar {
-    position: relative;
+    position: fixed;
     display: flex;
-    justify-content: center;
+    top:0;
+    left: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
-    /* background-color: #2895bd; */
+    z-index: 20;
+  }
+  .navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
   }
   
   .navbar__logo {
@@ -270,6 +286,7 @@
   
   .header {
     display: flex;
+    height: 100vh;
     justify-content: space-between;
   }
   
@@ -470,8 +487,6 @@
     justify-content: space-between;
   }
   
-  
-  
   .download-img-div-left img {
     display: flex;
     width: 300px;
@@ -483,7 +498,7 @@
   /* ///////////////////////////////////////////////////////////FOOTER ///////////////////////////////////////////////////////////*/
   .footer {
     margin-top: 5rem;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     color: var(--color-white);
     position: relative;
     background-color: var(--color-blue-dark);
@@ -531,6 +546,11 @@
     transform: translateX(150px) translateY(-240px);
   }
   
+  .footer p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
   /*///////////////////////////////////////////////////////////////////////////////////
   /*************************************************************************************
   STATS ROW
@@ -719,6 +739,10 @@
       padding: 0 6rem;
     }
   
+    .heading {
+      text-align: center;
+    }
+
     .circle-nav-right--2 {
       right: -600px;
     }
