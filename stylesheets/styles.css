@@ -133,12 +133,6 @@
   }
   
   .icon-features {
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-    width: 40%; */
-  /* width: 40%; */
   position: relative;
   top: 25px;
   left: 50%-50px;
@@ -515,11 +509,6 @@
     position: relative;
   }
   
-  .footer__logo {
-    margin-right: 0.5rem;
-    height: 50px;
-    width: 30px;
-  }
   
   .footer .navbar__list {
     opacity: 0.6;
@@ -532,7 +521,7 @@
     z-index: 5;
   }
   
-  .footer__social-item {
+  .footer__social__item {
     margin-left: 2rem;
   }
   
@@ -926,7 +915,7 @@
     .navbar__list, .navbar__button{
       display: none;
     }
-  
+
   
     .heading--primary {
       font-size: 5rem;
