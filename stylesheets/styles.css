@@ -219,6 +219,9 @@
   
   .navbar__logo {
     margin-right: 6rem;
+    margin-top: 10px;
+    height: 120px;
+    width: 75px;
   }
   
   .navbar__list {
@@ -907,6 +910,10 @@
       font-size: 46%;
     }
   
+    .header .left {
+      padding-right: 0;
+    }
+
     .navbar{
       justify-content: flex-start;
       
@@ -916,7 +923,21 @@
       display: none;
     }
 
-  
+    .navbar__logo {
+      margin-right: 6rem;
+      margin-top: 10px;
+      height: 80px;
+      width: 55px;
+    }
+
+    .circle-nav-right {
+      /* width: 500px;
+      height: 500px;
+      top:60px;
+      right: calc(50vw - 250px); */
+      display: none;
+    }
+
     .heading--primary {
       font-size: 5rem;
       margin-bottom: 2rem;
@@ -928,9 +949,13 @@
     .header .left{
       text-align: center;
     }
-  
+
+    .download-img-div {
+      align-self: center;
+    }
+
     .header__img__market{
-      margin-left: 5.5rem;
+      margin-left: 0rem;
       height: 320px;
     }
   
