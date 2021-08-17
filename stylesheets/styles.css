@@ -491,8 +491,12 @@
 
   /* ///////////////////////////////////////////////////////////DOWNLOAD SEC ///////////////////////////////////////////////////////////*/
   
+  .download-title {
+    margin-top: 10rem;
+  }
+
   .download-sec{
-    margin-top: 16rem;
+    margin-top: 6rem;
     display: flex;
     justify-content: space-between;
   }
@@ -1018,6 +1022,10 @@
       font-weight: 700;
     }
   
+    #footer-logo {
+      margin-right: 0;
+    }
+
     .market-container {
       height: 50vh;
     }
@@ -1037,6 +1045,7 @@
       display: block;
       position: relative;
       width: 100%;
+      margin-top: 2rem;
     }
   
     .clients__grid {
