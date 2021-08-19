@@ -371,7 +371,7 @@
   }
   
   /*CLIENTS */
-  
+
   .clients-box {
     width: 100%;
     background-color: var(--color-blue-dark);
@@ -383,6 +383,7 @@
     align-items: center;
     justify-content: center;
     padding: 5rem 0;
+    text-align: center;
     position: relative;
   }
   
@@ -395,10 +396,11 @@
   
   .clients__grid {
     flex: 1;
-    display: grid;
+    margin: 0 auto;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 5rem;
-    grid-column-gap: 2rem;
+    grid-column-gap: 2rem; */
     justify-items: center;
     z-index: 2;
   }
@@ -412,7 +414,10 @@
     padding-right: 6rem;
     z-index: 2;
   }
-  
+
+  .clients h2{
+    text-align: center;
+  }
   /* FEATURES  */
   
   .features {
@@ -464,7 +469,7 @@
   }
   
   .feature__small {
-    margin: 0 5rem;
+    margin: 0 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
