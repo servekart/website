@@ -30,12 +30,14 @@ $(function () {
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');
+    var input2 = $('.validate-input .input101');
 
     $('.validate-form').on('submit', function (e) {
+        var localInput = input.length == 0 ? input2 : input;
         var check = true;
-        for (var i = 0; i < input.length; i++) {
-            if (validate(input[i]) == false) {
-                showValidate(input[i]);
+        for (var i = 0; i < localInput.length; i++) {
+            if (validate(localInput[i]) == false) {
+                showValidate(localInput[i]);
                 e.preventDefault();
                 check = false;
             }
