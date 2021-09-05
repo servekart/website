@@ -1,114 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/home/desktop/shople-logo.svg"
-      />
-      <!-- href="./assets/favicon.ico" -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon.ico"
+        />
+        <!-- href="./assets/favicon.ico" -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <title>SHOPLE</title>
-  </head>
+        <title>SHOPLE</title>
+    </head>
 
-  <body>
-    <div class="body-container">
-      <div class="row" style="position: relative;">
-        <div class="circle circle-nav-right"></div>
-        <nav class="navbar">
-          <div class="logo-text">
-            <a href="#">
-              <img
-              class="nav-logo"
-              src="assets/logo.jpeg"
-              alt="Shople Logo"
-              />
-            </a>
-            <!-- <h4>SHOPLE</h4> -->
-          </div>
-          <ul class="navbar__list">
-            <li class="navbar__list-item">
-              <a class="nav-link" href="#features">Features</a>
-            </li>
-            <!-- <li class="navbar__list-item">
+    <body>
+        <div class="body-container">
+            <div class="row" style="position: relative">
+                <div class="circle circle-nav-right"></div>
+                <nav class="navbar">
+                    <div class="logo-text">
+                        <a href="#">
+                            <div id="header-logo">
+                                <img
+                                    class="nav-logo"
+                                    src="assets/logo.png"
+                                    alt="Shople Logo"
+                                />
+                                <p id="shople-text">SHOPLE</p>
+                            </div>
+                        </a>
+                        <!-- <h4>SHOPLE</h4> -->
+                    </div>
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <!-- <li class="navbar__list-item">
               <a class="nav-link" href="#">Pricing</a>
             </li> -->
-            <li class="navbar__list-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="navbar__list-item">
-              <a class="nav-link" href="#ready-to-start">Contact</a>
-            </li>
-          </ul>
-          <a href="https://forms.gle/tJ9eNR1oVgbyCsZW6" target="_blank" class="navbar__button">Register Business at Shople</a>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        </nav>
-      </div>
-      <div class="row">
-        <header class="header flex-row">
-          <div class="left heading-div">
-            <h1 class="heading heading--primary">
-              Know what's there in your Local Market.
-            </h1>
-            <form class="form contact100-form validate-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZNyoeQXYY8l19blnVnnasi2xig07Goqi5O9v5RexO3cB8Ag/formResponse">
-              <div class="validate-input" data-validate="Email is required: ex@abc.xyz">
-                <input
-                class="form__input input100"
-                type="email"
-                name="entry.940255963"
-                placeholder="Enter email address"
-                aria-labelledby="schedule-demo"
-                />
-                <span class="focus-input100"></span>
-              </div>
-              <button id="submit_button" class="form__input-button">
-                Request Early Access
-              </button>
-            </form>
-            <p>Have any questions? <a href="#ready-to-start" class="link">Contact Us</a></p>
-          </div>
-          <div class="right market-container">
-            <img
-              class="header__img__market"
-              alt="market"
-              src="assets/home/desktop/market.svg"
-            />
-          </div>
-        </header>
-      </div>
-
-      <div class="clients-box" id="about">
-        <div class="row">
-          <section class="clients">
-            <div class="circle circle-clients-left"></div>
-            <div class="clients__text">
-              <h2 class="heading heading--secondary">Who we work with</h2>
-              <p>
-                Today, hundreds of shops across Aligarh have joined our platform and are operating smoothly. They have created a solid digital presence with us. Now, with our vast local shop network, finding user needs has become super easy! 
-              </p>
-              <a href="#about" class="button-primary">About Us</a>
+                        <li class="navbar__list-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a class="nav-link" href="#ready-to-start"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                    <a
+                        href="https://forms.gle/tJ9eNR1oVgbyCsZW6"
+                        target="_blank"
+                        class="navbar__button"
+                        >Register Business at Shople</a
+                    >
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
             </div>
-            <!-- <div class="clients__grid">
+            <div class="row">
+                <header class="header flex-row">
+                    <div class="left heading-div">
+                        <h1 class="heading heading--primary">
+                            Know what's there in your Local Market.
+                        </h1>
+                        <form
+                            class="form contact100-form validate-form"
+                            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZNyoeQXYY8l19blnVnnasi2xig07Goqi5O9v5RexO3cB8Ag/formResponse"
+                        >
+                            <div
+                                class="validate-input"
+                                data-validate="Email is required: ex@abc.xyz"
+                            >
+                                <input
+                                    class="form__input input100"
+                                    type="email"
+                                    name="entry.940255963"
+                                    placeholder="Enter email address"
+                                    aria-labelledby="schedule-demo"
+                                />
+                                <span class="focus-input100"></span>
+                            </div>
+                            <button
+                                id="submit_button"
+                                class="form__input-button"
+                            >
+                                Request Early Access
+                            </button>
+                        </form>
+                        <p>
+                            Have any questions?
+                            <a href="#ready-to-start" class="link"
+                                >Contact Us</a
+                            >
+                        </p>
+                    </div>
+                    <div class="right market-container">
+                        <img
+                            class="header__img__market"
+                            alt="market"
+                            src="assets/home/desktop/market.svg"
+                        />
+                    </div>
+                </header>
+            </div>
+
+            <div class="clients-box" id="about">
+                <div class="row">
+                    <section class="clients">
+                        <div class="circle circle-clients-left"></div>
+                        <div class="clients__text">
+                            <h2 class="heading heading--secondary">
+                                Who we work with
+                            </h2>
+                            <p>
+                                Today, hundreds of shops across Aligarh have
+                                joined our platform and are operating smoothly.
+                                They have created a solid digital presence with
+                                us. Now, with our vast local shop network,
+                                finding user needs has become super easy!
+                            </p>
+                            <!-- <a href="#about" class="button-primary">About Us</a> -->
+                        </div>
+                        <!-- <div class="clients__grid">
               <img
                 src="assets/home/desktop/deliver.svg"
                 height="300px"
                 alt="shop deliver"
                 class="work-with-img"
               /> -->
-              <!-- <img
+                        <!-- <img
                 src="assets/shared/desktop/microsoft.svg"
                 alt="microsoft"
                 class="clients__logo"
@@ -133,96 +168,119 @@
                 alt="google"
                 class="clients__logo"
               /> -->
-            <!-- </div> -->
-            <div class="clients__circle"></div>
-          </section>
-        </div>
-      </div>
+                        <!-- </div> -->
+                        <div class="clients__circle"></div>
+                    </section>
+                </div>
+            </div>
 
-      <div class="row">
-        <section class="features" id="features">
-          <img
-            class="features__img--1"
-            src="assets/home/desktop/collaboration.svg"
-            alt="Quick deals"
-          />
-          <div class="features__text--1">
-            <h2 class="heading heading--secondary">Local Market Network</h2>
-            <p>
-              We have joined hands with local shops and onboarded hundreds of them who believe in us. They are now operating over our platform and experiencing the differences.
-            </p>
-          </div>
-          <div class="features__text--2">
-            <h2 class="heading heading--secondary">Search Online Buy Offline</h2>
-            <p>
-              Shople allows users to search their favorite products, check their availability in the local market, compare them and help them to crack the best deals offline among multiple local shops.
-            </p>
-          </div>
-          <img
-            class="features__img--2"
-            src="assets/home/desktop/search.svg"
-            alt="feature-phones"
-          />
-          <div class="circle circle-features-right"></div>
-          <div class="feature__small-container">
-            <div class="feature__small">
-              <div class="circleBase">
-                <img
-                src="assets/home/desktop/icon-money.svg"
-                height="50px"
-                class="icon-features"
-                alt="finances icon"
-                />
-              </div>
-              <h2>Best Prices</h2>
-              <br>
-              <p>
-                Shople offers users to explore products across their local market and grab the best deal at the best prices offered.
-              </p>
+            <div class="row">
+                <section class="features" id="features">
+                    <img
+                        class="features__img--1"
+                        src="assets/home/desktop/collaboration.svg"
+                        alt="Quick deals"
+                    />
+                    <div class="features__text--1">
+                        <h2 class="heading heading--secondary">
+                            Local Market Network
+                        </h2>
+                        <p>
+                            We have joined hands with local shops and onboarded
+                            hundreds of them who believe in us. They are now
+                            operating over our platform and experiencing the
+                            differences.
+                        </p>
+                    </div>
+                    <div class="features__text--2">
+                        <h2 class="heading heading--secondary">
+                            Search Online Buy Offline
+                        </h2>
+                        <p>
+                            Shople allows users to search their favorite
+                            products, check their availability in the local
+                            market, compare them and help them to crack the best
+                            deals offline among multiple local shops.
+                        </p>
+                    </div>
+                    <img
+                        class="features__img--2"
+                        src="assets/home/desktop/search.svg"
+                        alt="feature-phones"
+                    />
+                    <div class="circle circle-features-right"></div>
+                    <div class="feature__small-container">
+                        <div class="feature__small">
+                            <div class="circleBase">
+                                <img
+                                    src="assets/home/desktop/icon-money.svg"
+                                    height="50px"
+                                    class="icon-features"
+                                    alt="finances icon"
+                                />
+                            </div>
+                            <h2>Best Prices</h2>
+                            <br />
+                            <p>
+                                Shople offers users to explore products across
+                                their local market and grab the best deal at the
+                                best prices offered.
+                            </p>
+                        </div>
+                        <div class="feature__small">
+                            <div class="circleBase">
+                                <img
+                                    src="assets/home/desktop/icon-time.svg"
+                                    height="50px"
+                                    class="icon-features"
+                                    alt="banking icon"
+                                />
+                            </div>
+                            <h2>Time Efficient</h2>
+                            <br />
+                            <p>
+                                Time is money, and we care for it. Shople helps
+                                users save their time by providing quick market
+                                search, guiding them to find their product, and
+                                thus, making their product available as soon as
+                                possible.
+                            </p>
+                        </div>
+                        <div class="feature__small">
+                            <div class="circleBase">
+                                <img
+                                    src="assets/home/desktop/icon-ui.svg"
+                                    height="50px"
+                                    class="icon-features"
+                                    alt="payments icon"
+                                />
+                            </div>
+                            <h2>Simple Interface</h2>
+                            <br />
+                            <p>
+                                We are here to make complex things look easy and
+                                simple. Our interface reflects this idea
+                                beautifully and makes searching for products
+                                very easy.
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="feature__small">
-              <div class="circleBase">
-                <img
-                src="assets/home/desktop/icon-time.svg"
-                height="50px"
-                class="icon-features"
-                alt="banking icon"
-                />
-              </div>
-              <h2>Time Efficient</h2>
-              <br>
-              <p>
-                Time is money, and we care for it. Shople helps users save their time by providing quick market search, guiding them to find their product, and thus, making their product available as soon as possible.
-              </p>
+            <div class="row download-title" style="text-align: center">
+                <h1>Download Our App</h1>
             </div>
-            <div class="feature__small">
-              <div class="circleBase">
-                <img
-                src="assets/home/desktop/icon-ui.svg"
-                height="50px"
-                class="icon-features"
-                alt="payments icon"
-                />
-              </div>
-              <h2>Simple Interface</h2>
-              <br>
-              <p>
-                We are here to make complex things look easy and simple. Our interface reflects this idea beautifully and makes searching for products very easy.
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div class="row download-title" style="text-align: center;">
-        <h1>Download Our App</h1>
-      </div>
-      <div class="row flex-row download-sec">
-        <div class="left flex-col download-img-div-left">
-          <div class="google-img">
-            <h2 style="text-align: center;">Coming Soon </h2>
-            <a href='#ready-to-start'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-          </div>
-          <!-- <div class="apple-img">
+            <div class="row flex-row download-sec">
+                <div class="left flex-col download-img-div-left">
+                    <div class="google-img">
+                        <h2 style="text-align: center">Coming Soon</h2>
+                        <a href="#ready-to-start"
+                            ><img
+                                alt="Get it on Google Play"
+                                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                        /></a>
+                    </div>
+                    <!-- <div class="apple-img">
             <a href="https://play.google.com/store/apps/details?id=com.sg.moviesindex" target="_blank">
               <img
               class="download-img"
@@ -231,80 +289,113 @@
               />
             </a>
           </div> -->
-
-        </div>
-        <div class="right download-img-div">
-          <img
-              class="download-img"
-              alt="download"
-              height="400px"
-              src="assets/home/desktop/download.svg"
-            />
-        </div>
-      </div>
-      <div class="row request-demo" id="ready-to-start">
-        <h2 class="heading heading--secondary">Ready to start?</h2>
-        <form class="form contact100-form validate-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZNyoeQXYY8l19blnVnnasi2xig07Goqi5O9v5RexO3cB8Ag/formResponse">
-          <div class="validate-input" data-validate="Email is required: ex@abc.xyz">
-            <input
-            class="form__input input101"
-            type="email"
-            name="entry.940255963"
-            placeholder="Enter email address"
-            aria-labelledby="schedule-demo-footer"
-            />
-            <span class="focus-input100"></span>
-          </div>
-            <button id="submit_button" class="form__input-button">
-            Request Early Access
-          </button>
-        </form>
-      </div>
-      <footer class="footer">
-        <div class="row">
-          <div class="footer__flex">
-            <div class="">
-              <h1 id="footer-logo">SHOPLE</h1>
-              <h5>Discovering possibilities</h5>
+                </div>
+                <div class="right download-img-div">
+                    <img
+                        class="download-img"
+                        alt="download"
+                        height="400px"
+                        src="assets/home/desktop/download.svg"
+                    />
+                </div>
             </div>
-            <nav class="footer__nav">
-              <ul class="navbar__list">
-                <li class="navbar__list-item"><a href="#features">Features</a></li>
-                <!-- <li class="navbar__list-item"><a href="#">Pricing</a></li> -->
-                <li class="navbar__list-item"><a href="#about">About</a></li>
-                <li class="navbar__list-item"><a href="#ready-to-start">Contact</a></li>
-              </ul>
-            </nav>
-            <ul class="footer__social">
-              <li class="footer__social__item">
-                <a href="https://www.instagram.com/shople_official/" target="_blank">
-                  <img src="assets/home/desktop/insta.svg" />
-                </a>
-              </li>
-              <li class="footer__social__item">
-                <a href="https://twitter.com/shople_official" target="_blank">
-                  <img src="assets/shared/desktop/facebook.svg" />
-                </a>
-              </li>
-              <li class="footer__social__item">
-                <a href="https://twitter.com/shople_official" target="_blank">
-                  <img src="assets/shared/desktop/twitter.svg" />
-                </a>
-              </li>
-              <li class="footer__social__item">
-                <a href="https://twitter.com/shople_official" target="_blank">
-                  <img src="assets/shared/desktop/linkedin.svg" />
-                </a>
-              </li>
-            </ul>
-            <div class="circle circle-footer-right"></div>
-          </div>
+            <div class="row request-demo" id="ready-to-start">
+                <h2 class="heading heading--secondary">Ready to start?</h2>
+                <form
+                    class="form contact100-form validate-form"
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZNyoeQXYY8l19blnVnnasi2xig07Goqi5O9v5RexO3cB8Ag/formResponse"
+                >
+                    <div
+                        class="validate-input"
+                        data-validate="Email is required: ex@abc.xyz"
+                    >
+                        <input
+                            class="form__input input101"
+                            type="email"
+                            name="entry.940255963"
+                            placeholder="Enter email address"
+                            aria-labelledby="schedule-demo-footer"
+                        />
+                        <span class="focus-input100"></span>
+                    </div>
+                    <button id="submit_button" class="form__input-button">
+                        Request Early Access
+                    </button>
+                </form>
+            </div>
+            <footer class="footer">
+                <div class="row">
+                    <div class="footer__flex">
+                        <div class="">
+                            <h1 id="footer-logo">SHOPLE</h1>
+                            <h5>Discovering possibilities</h5>
+                        </div>
+                        <nav class="footer__nav">
+                            <ul class="navbar__list">
+                                <li class="navbar__list-item">
+                                    <a href="#features">Features</a>
+                                </li>
+                                <!-- <li class="navbar__list-item"><a href="#">Pricing</a></li> -->
+                                <li class="navbar__list-item">
+                                    <a href="#about">About</a>
+                                </li>
+                                <li class="navbar__list-item">
+                                    <a href="#ready-to-start">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="footer__social">
+                            <li class="footer__social__item">
+                                <a
+                                    href="https://www.instagram.com/shople_official/"
+                                    target="_blank"
+                                >
+                                    <img src="assets/home/desktop/insta.svg" />
+                                </a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a
+                                    href="https://twitter.com/shople_official"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="assets/shared/desktop/facebook.svg"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a
+                                    href="https://twitter.com/shople_official"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="assets/shared/desktop/twitter.svg"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a
+                                    href="https://twitter.com/shople_official"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="assets/shared/desktop/linkedin.svg"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="circle circle-footer-right"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p id="support-para">Contact us at: shople.dev@gmail.com</p>
+                    <p>
+                        Copyright © 2021 Shople Private Limited. All rights
+                        reserved.
+                    </p>
+                </div>
+            </footer>
         </div>
-        <div class="row">
-          <p>Copyright © 2021 Shople Private Limited. All rights reserved.</p>
-        </div>
-      </footer>
-    </div>
-  </body>
-  <script src="/main.js"></script>
+    </body>
+    <script src="/main.js"></script>
 </html>
