@@ -112,6 +112,7 @@ p {
 
 #shople-text {
     font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .button-primary:link,
@@ -536,6 +537,7 @@ section {
 }
 #footer-logo {
     margin-right: 6em;
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer__flex {
@@ -572,12 +574,6 @@ section {
 .footer p {
     font-size: 1.6rem;
     text-align: center;
-}
-
-#support-para {
-    font-size: 1.5rem;
-    color: #fff;
-    opacity: 0.9;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////
