@@ -172,6 +172,17 @@ p {
     margin: 1.5rem auto;
 }
 
+#youtube-vid {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#youtube-vid h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
 .d-grid-8 {
     display: grid;
     grid-template-columns: repeat(8, minmax(12.5%, 1fr));

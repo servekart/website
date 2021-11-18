@@ -7,7 +7,6 @@ $(function () {
 // Hamburger Logic
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".navbar__list");
-
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
