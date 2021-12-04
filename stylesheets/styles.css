@@ -110,6 +110,11 @@ p {
     line-height: 4.5rem;
 }
 
+#youtube-vid-frame {
+    width: 100%;
+    height: 60vh;
+}
+
 #shople-text {
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
@@ -1079,7 +1084,15 @@ section {
         justify-items: center;
         z-index: 2;
     }
-
+    #youtube-vid {
+        text-align: center;
+        height: 60vh;
+        align-items: center;
+    }
+    #youtube-vid-frame {
+        width: 90%;
+        height: 25vh;
+    }
     .clients__text {
         width: 80%;
     }
