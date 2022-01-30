@@ -11,7 +11,6 @@
             href="./assets/favicon.ico"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Raleway&family=Roboto&family=Ubuntu&display=swap"
@@ -20,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <title>Shople - Your Service Marketplace</title>
+        <title>Servekart - Your Service Marketplace</title>
     </head>
 
     <body>
@@ -34,9 +33,9 @@
                                 <img
                                     class="nav-logo"
                                     src="assets/logo.png"
-                                    alt="Shople Logo"
+                                    alt="Servekart Logo"
                                 />
-                                <p id="shople-text">SHOPLE</p>
+                                <p id="servekart-text">servekart</p>
                             </div>
                         </a>
                     </div>
@@ -69,8 +68,13 @@
             <div class="row">
                 <header class="header flex-row">
                     <div class="left heading-div">
-                        <h1 class="heading heading--primary">
-                            Explore & find the Best Services for you.
+                        <h1
+                            class="heading heading--primary"
+                            style="inline-size: max-content"
+                        >
+                            Explore & find<br />
+                            the Best Services<br />
+                            for you.
                         </h1>
                         <h4 class="heading heading--tertiary">
                             Join our service marketplace and grow your business.
@@ -137,7 +141,7 @@
                 </div>
             </div>
             <div class="row" id="youtube-vid">
-                <h1>Wondering, what is Shople?</h1>
+                <h1>Wondering, what is Servekart?</h1>
                 <iframe
                     id="youtube-vid-frame"
                     src="https://youtube.com/embed/ZtzBQicp5aI"
@@ -157,7 +161,7 @@
                         </h2>
                         <p>
                             Tired of looking for services on different
-                            platforms? With Shople, searching for different
+                            platforms? With Servekart, searching for different
                             kinds of day to day as well as professional services
                             is just a few clicks away.
                         </p>
@@ -193,10 +197,11 @@
                             <h2>Best Prices</h2>
                             <br />
                             <p>
-                                Shople offers users to explore services nearby
-                                as well as remotely and grab the best deal at
-                                the best prices offered.
+                                Servekart offers users to explore services
+                                nearby as well as remotely and grab the best
+                                deal at the best prices offered.
                             </p>
+                            <br />
                         </div>
                         <div class="feature__small">
                             <div class="circleBase">
@@ -210,11 +215,11 @@
                             <h2>Time Efficient</h2>
                             <br />
                             <p>
-                                Time is money, and we care for it. Shople helps
-                                users save their time by providing quick market
-                                search, guiding them to find their service, and
-                                thus, making their service available as soon as
-                                possible.
+                                Time is money, and we care for it. Servekart
+                                helps users save their time by providing quick
+                                market search, guiding them to find their
+                                service, and thus, making their service
+                                available as soon as possible.
                             </p>
                         </div>
                         <div class="feature__small">
@@ -297,80 +302,93 @@
             <footer class="footer">
                 <div class="row">
                     <div class="footer__flex">
-                        <div class="flex-column">
-                            <h1 id="footer-logo">SHOPLE</h1>
-                            <h5 style="font-family: 'Raleway'">
+                        <div style="text-align: center">
+                            <h1 id="footer-logo">servekart</h1>
+                            <h5
+                                style="
+                                    font-family: 'Raleway';
+                                    font-size: 1.65rem;
+                                "
+                            >
                                 Delivering Truly Different
                             </h5>
                         </div>
-                        <nav class="footer__nav">
-                            <ul class="navbar__list">
-                                <li class="navbar__list-item">
-                                    <a href="#features">Features</a>
+                        <div>
+                            <nav class="footer__nav" style="flex: auto">
+                                <ul class="navbar__list">
+                                    <li class="navbar__list-item">
+                                        <a href="#features">Features</a>
+                                    </li>
+                                    <!-- <li class="navbar__list-item"><a href="#">Pricing</a></li> -->
+                                    <li class="navbar__list-item">
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li class="navbar__list-item">
+                                        <a href="#ready-to-start">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div>
+                            <ul class="footer__social">
+                                <li class="footer__social__item">
+                                    <a
+                                        href="mailto:shople.dev@gmail.com"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="assets/home/desktop/mail.svg"
+                                        />
+                                    </a>
                                 </li>
-                                <!-- <li class="navbar__list-item"><a href="#">Pricing</a></li> -->
-                                <li class="navbar__list-item">
-                                    <a href="#about">About</a>
+                                <li class="footer__social__item">
+                                    <a
+                                        href="https://www.instagram.com/shople_official/"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="assets/home/desktop/insta.svg"
+                                        />
+                                    </a>
                                 </li>
-                                <li class="navbar__list-item">
-                                    <a href="#ready-to-start">Contact</a>
+                                <li class="footer__social__item">
+                                    <a
+                                        href="https://www.facebook.com/shople.official"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="assets/shared/desktop/facebook.svg"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="footer__social__item">
+                                    <a
+                                        href="https://twitter.com/shople_official"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="assets/shared/desktop/twitter.svg"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="footer__social__item">
+                                    <a
+                                        href="https://www.linkedin.com/company/shople"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="assets/shared/desktop/linkedin.svg"
+                                        />
+                                    </a>
                                 </li>
                             </ul>
-                        </nav>
-                        <ul class="footer__social">
-                            <li class="footer__social__item">
-                                <a
-                                    href="mailto:shople.dev@gmail.com"
-                                    target="_blank"
-                                >
-                                    <img src="assets/home/desktop/mail.svg" />
-                                </a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a
-                                    href="https://www.instagram.com/shople_official/"
-                                    target="_blank"
-                                >
-                                    <img src="assets/home/desktop/insta.svg" />
-                                </a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a
-                                    href="https://www.facebook.com/shople.official"
-                                    target="_blank"
-                                >
-                                    <img
-                                        src="assets/shared/desktop/facebook.svg"
-                                    />
-                                </a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a
-                                    href="https://twitter.com/shople_official"
-                                    target="_blank"
-                                >
-                                    <img
-                                        src="assets/shared/desktop/twitter.svg"
-                                    />
-                                </a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a
-                                    href="https://www.linkedin.com/company/shople"
-                                    target="_blank"
-                                >
-                                    <img
-                                        src="assets/shared/desktop/linkedin.svg"
-                                    />
-                                </a>
-                            </li>
-                        </ul>
+                        </div>
                         <div class="circle circle-footer-right"></div>
                     </div>
                 </div>
                 <div class="row">
                     <p>
-                        Copyright © 2021 KNAPSACK TECHNOLOGIES PRIVATE LIMITED.
+                        Copyright © 2022 KNAPSACK TECHNOLOGIES PRIVATE LIMITED.
                         All rights reserved.
                     </p>
                 </div>

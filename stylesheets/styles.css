@@ -98,7 +98,7 @@ p {
 }
 
 .heading--secondary {
-    font-family: "Raleway";
+    font-family: "Open Sans";
     font-size: 4rem;
     line-height: 5.5rem;
     margin-bottom: 2rem;
@@ -117,7 +117,7 @@ p {
     height: 60vh;
 }
 
-#shople-text {
+#servekart-text {
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
 }
@@ -252,7 +252,7 @@ section {
 }
 .navbar.scrolled {
     background-color: #fff !important;
-    transition: background-color 200ms linear;
+    transition: background-color 300ms linear;
 }
 
 .nav-logo {
@@ -554,12 +554,12 @@ section {
     width: 100vw;
 }
 #footer-logo {
-    margin-right: 6em;
     font-family: "Montserrat", sans-serif;
 }
 
 .footer__flex {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: relative;
 }
@@ -569,13 +569,13 @@ section {
 }
 
 .footer__social {
-    margin-left: auto;
     list-style-type: none;
     display: flex;
     z-index: 5;
 }
 
 .footer__social__item {
+    z-index: 6;
     margin-left: 2rem;
 }
 
@@ -586,6 +586,7 @@ section {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 0;
     transform: translateX(150px) translateY(-240px);
 }
 
@@ -1029,7 +1030,6 @@ section {
     .heading--primary {
         font-size: 4rem;
         margin-bottom: 2rem;
-
         margin: 0 auto;
         padding: 0 0.5em;
     }
