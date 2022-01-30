@@ -12,10 +12,6 @@
     --color-blue: black;
     --color-blue-dark: #09145c;
 }
-@font-face {
-    font-family: Lucida-Sans-Regular;
-    src: url("../assets/fonts/lucida-sans/Lucida\ Sans\ Regular.ttf");
-}
 
 *,
 *::before,
@@ -32,11 +28,13 @@ a {
 
 a,
 button {
+    font-family: "Ubuntu";
     transition: background-color 0.5s, color 0.5s;
 }
 
 input,
 button {
+    font-family: "Ubuntu";
     outline: none;
 }
 
@@ -48,7 +46,7 @@ html {
 }
 
 body {
-    font-family: Lucida-Sans-Regular;
+    font-family: "Roboto";
     font-size: 1.9rem;
     color: var(--color-blue);
     text-align: justify;
@@ -93,21 +91,25 @@ p {
 }
 
 .heading--primary {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     margin-bottom: 4rem;
     max-width: 750px;
     /* text-align: center; */
 }
 
 .heading--secondary {
+    font-family: "Raleway";
     font-size: 4rem;
     line-height: 5.5rem;
     margin-bottom: 2rem;
 }
 
 .heading--tertiary {
-    font-size: 3rem;
+    font-family: "Raleway";
+    font-size: 2.5rem;
     line-height: 4.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 #youtube-vid-frame {
