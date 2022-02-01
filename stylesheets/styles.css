@@ -114,7 +114,7 @@ p {
 
 #youtube-vid-frame {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
 }
 
 #servekart-text {
@@ -232,9 +232,6 @@ p {
     position: absolute;
 }
 
-section {
-    padding-top: 10rem;
-}
 /*COMPONENTS */
 
 .navbar {
@@ -257,6 +254,7 @@ section {
 
 .nav-logo {
     margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 2rem;
     height: 80px;
     width: 55px;
@@ -292,7 +290,7 @@ section {
 .navbar__button:link,
 .navbar__button:visited {
     margin-left: auto;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     text-decoration: none;
     background-color: var(--color-red);
     border-radius: 6rem;
