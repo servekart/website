@@ -260,7 +260,7 @@ p {
     justify-content: space-around;
     align-items: center;
     z-index: 20;
-    background-color: #fbfcfe
+    background-color: #fbfcfe;
 }
 
 .navbar.scrolled {
@@ -792,25 +792,19 @@ p {
     margin-bottom: 5rem;
 }
 
-.row-privacy{
+.row-privacy {
     margin: 10rem;
     overflow: hidden;
     border-radius: 10px;
     padding: 5rem;
 }
 
-.privacy-policy-index{
-    color: rgb(155, 152, 152);
-    font-size: small;
-    margin-left: 2rem;
-}
-
-.privacy-policy{
+.privacy-policy {
     color: black;
     text-align: center;
 }
 
-.privacy-policy-text{
+.privacy-policy-text {
     color: black;
     font-family: Ubuntu;
     font-weight: 200;
@@ -819,7 +813,7 @@ p {
     margin-left: 2px;
 }
 
-.privacy-policy-text-heading{
+.privacy-policy-text-heading {
     color: black;
     font-family: Ubuntu;
     font-weight: 800;
@@ -828,7 +822,14 @@ p {
     margin-left: -2px;
 }
 
-.list-items{
+.privacy-policy-index {
+    display: flex;
+    z-index: 100;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.list-items {
     color: black;
     font-family: Ubuntu;
     font-weight: 200;
@@ -1080,7 +1081,7 @@ p {
         display: none;
     }
 
-    .header-logo{
+    .header-logo {
         margin-left: -20px;
     }
 
@@ -1205,7 +1206,7 @@ p {
         margin-top: 3rem;
     }
 
-    .row-privacy{
+    .row-privacy {
         margin: 2rem;
         margin-top: 5rem;
         overflow: hidden;
@@ -1213,7 +1214,7 @@ p {
         padding: 5rem;
     }
 
-    .privacy-policy-text{
+    .privacy-policy-text {
         color: black;
         font-family: Ubuntu;
         font-weight: 200;
@@ -1221,8 +1222,8 @@ p {
         line-height: 2.5ch;
         margin-left: 2px;
     }
-    
-    .privacy-policy-text-heading{
+
+    .privacy-policy-text-heading {
         color: black;
         font-family: Ubuntu;
         font-weight: 800;
@@ -1231,18 +1232,12 @@ p {
         margin-left: -2px;
     }
 
-    .list-items{
+    .list-items {
         color: black;
         font-family: Ubuntu;
         font-weight: 200;
         font-size: small;
         line-height: 2.5ch;
-        margin-left: 2rem;
-    }
-
-    .privacy-policy-index{
-        color: rgb(155, 152, 152);
-        font-size: smaller;
         margin-left: 2rem;
     }
 }
