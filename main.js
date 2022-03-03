@@ -29,10 +29,10 @@ function closeMenu() {
     /*==================================================================
     [ Validate ]*/
     var input = $(".validate-input .input100");
-    var input2 = $(".validate-input .input101");
+    var input2 = $(".validate-input2 .input101");
 
     $(".validate-form").on("submit", function (e) {
-        var localInput = input.length == 0 ? input2 : input;
+        var localInput = input;
         var check = true;
         for (var i = 0; i < localInput.length; i++) {
             if (validate(localInput[i]) == false) {
@@ -46,6 +46,26 @@ function closeMenu() {
     });
 
     $(".validate-form .input100").each(function () {
+        $(this).focus(function () {
+            hideValidate(this);
+        });
+    });
+
+    $(".validate-form2").on("submit", function (e) {
+        var localInput = input2;
+        var check = true;
+        for (var i = 0; i < localInput.length; i++) {
+            if (validate(localInput[i]) == false) {
+                showValidate(localInput[i]);
+                e.preventDefault();
+                check = false;
+            }
+        }
+
+        return check;
+    });
+
+    $(".validate-form2 .input101").each(function () {
         $(this).focus(function () {
             hideValidate(this);
         });
