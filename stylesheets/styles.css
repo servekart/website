@@ -247,6 +247,22 @@ p {
     align-items: center;
     z-index: 20;
 }
+
+.navbar.privacy {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 20;
+    background-color: #fbfcfe
+}
+
 .navbar.scrolled {
     background-color: #fff !important;
     transition: background-color 300ms linear;
@@ -407,6 +423,8 @@ p {
     width: 100%;
     background-color: var(--color-blue-dark);
     overflow: hidden;
+    padding: 2rem 2rem 0 2rem;
+    margin: 1.5rem auto;
 }
 
 .clients {
@@ -774,6 +792,51 @@ p {
     margin-bottom: 5rem;
 }
 
+.row-privacy{
+    margin: 10rem;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5rem;
+}
+
+.privacy-policy-index{
+    color: rgb(155, 152, 152);
+    font-size: small;
+    margin-left: 2rem;
+}
+
+.privacy-policy{
+    color: black;
+    text-align: center;
+}
+
+.privacy-policy-text{
+    color: black;
+    font-family: Ubuntu;
+    font-weight: 200;
+    font-size: medium;
+    line-height: 2.5ch;
+    margin-left: 2px;
+}
+
+.privacy-policy-text-heading{
+    color: black;
+    font-family: Ubuntu;
+    font-weight: 800;
+    font-size: large;
+    margin: 10px;
+    margin-left: -2px;
+}
+
+.list-items{
+    color: black;
+    font-family: Ubuntu;
+    font-weight: 200;
+    font-size: medium;
+    line-height: 2.5ch;
+    margin-left: 2rem;
+}
+
 /*/ /////////////////////////////////////////////////   PHONE SCREEN   ////////////////////////////////////////////////////////*/
 
 @media only screen and (max-width: 1100px) {
@@ -1017,6 +1080,10 @@ p {
         display: none;
     }
 
+    .header-logo{
+        margin-left: -20px;
+    }
+
     .nav-logo {
         margin-top: 10px;
         height: 60px;
@@ -1136,6 +1203,47 @@ p {
 
     .pricing__button {
         margin-top: 3rem;
+    }
+
+    .row-privacy{
+        margin: 2rem;
+        margin-top: 5rem;
+        overflow: hidden;
+        border-radius: 10px;
+        padding: 5rem;
+    }
+
+    .privacy-policy-text{
+        color: black;
+        font-family: Ubuntu;
+        font-weight: 200;
+        font-size: small;
+        line-height: 2.5ch;
+        margin-left: 2px;
+    }
+    
+    .privacy-policy-text-heading{
+        color: black;
+        font-family: Ubuntu;
+        font-weight: 800;
+        font-size: medium;
+        margin: 10px;
+        margin-left: -2px;
+    }
+
+    .list-items{
+        color: black;
+        font-family: Ubuntu;
+        font-weight: 200;
+        font-size: small;
+        line-height: 2.5ch;
+        margin-left: 2rem;
+    }
+
+    .privacy-policy-index{
+        color: rgb(155, 152, 152);
+        font-size: smaller;
+        margin-left: 2rem;
     }
 }
 
