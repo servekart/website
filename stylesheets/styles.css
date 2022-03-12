@@ -827,6 +827,14 @@ p {
     z-index: 100;
     margin-left: 2rem;
     margin-top: 2rem;
+    font-size: medium;
+}
+.tnc-index{
+    display: flex;
+    z-index: 100;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: medium;
 }
 
 .list-items {
