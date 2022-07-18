@@ -72,6 +72,10 @@ body {
     background-color: #101010;
 }
 
+.link {
+    font-weight: 700;
+}
+
 /* TYPOGRAPHY */
 
 p {
@@ -118,7 +122,7 @@ p {
 }
 
 #servekart-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -133,6 +137,7 @@ p {
     color: var(--color-white);
     margin-top: 3rem;
 }
+
 .market-container {
     height: 80vh;
 }
@@ -185,6 +190,7 @@ p {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 #youtube-vid h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -208,9 +214,11 @@ p {
 .col-5 {
     grid-column: span 5;
 }
+
 .col-7 {
     grid-column: span 7;
 }
+
 .col-8 {
     grid-column: span 8;
 }
@@ -243,24 +251,9 @@ p {
     padding-right: 10%;
     margin-top: 0;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     z-index: 20;
-}
-
-.navbar.privacy {
-    position: fixed;
-    display: flex;
-    top: 0;
-    left: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 0;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 20;
-    background-color: #fbfcfe;
 }
 
 .navbar.scrolled {
@@ -270,9 +263,10 @@ p {
 
 .nav-logo {
     margin-top: 10px;
-    height: 80px;
-    width: 55px;
+    height: 60px;
+    width: 40px;
 }
+
 #header-logo {
     display: flex;
     flex-direction: column;
@@ -339,6 +333,7 @@ p {
     right: -400px;
     z-index: -2;
 }
+
 /*////////////////////////////////////////////////////////HEADER ///////////////////////////////////////////////////////////////*/
 
 .header {
@@ -467,6 +462,7 @@ p {
 .clients h2 {
     text-align: center;
 }
+
 /* FEATURES  */
 
 .features {
@@ -554,10 +550,11 @@ p {
     justify-content: space-between;
 }
 
-.download-img-div-left img {
+.download-img-div-right img {
     display: flex;
     width: 300px;
 }
+
 .download-img-div {
     align-self: flex-end;
 }
@@ -572,6 +569,7 @@ p {
     overflow: hidden;
     width: 100vw;
 }
+
 #footer-logo {
     font-family: "Montserrat", sans-serif;
 }
@@ -597,6 +595,7 @@ p {
     z-index: 6;
     margin-left: 2rem;
 }
+
 .footer-icon {
     height: 24px;
 }
@@ -650,7 +649,8 @@ p {
     margin: auto;
     justify-content: center;
     border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    behavior: url(PIE.htc);
+    /* remove if you don't care about IE8 */
     width: 100px;
     height: 100px;
     background: #5077b5;
@@ -822,14 +822,42 @@ p {
     margin-left: -2px;
 }
 
-.privacy-policy-index {
+.faqs-text-heading {
+    color: black;
+    font-family: Ubuntu;
+    font-size: larger;
+    font-weight: 600;
+    margin: 10px;
+    margin-left: -2px;
+}
+
+.faqs-category-heading {
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: "Raleway";
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.faqs-index {
     display: flex;
     z-index: 100;
     margin-left: 2rem;
     margin-top: 2rem;
     font-size: medium;
 }
-.tnc-index{
+
+.privacy-policy-index {
+    display: flex;
+    z-index: 100;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: medium;
+}
+
+.tnc-index {
     display: flex;
     z-index: 100;
     margin-left: 2rem;
@@ -904,6 +932,16 @@ p {
 
     .clients {
         flex-direction: column-reverse;
+    }
+
+    .faqs-category-heading {
+        line-height: 4rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-family: "Raleway";
+        font-size: x-large;
+        text-decoration: underline;
+        font-weight: bolder;
     }
 
     .clients__text {
@@ -1026,6 +1064,15 @@ p {
         flex-direction: row;
         width: 70%;
     }
+
+    .faqs-text-heading {
+        color: black;
+        font-family: Ubuntu;
+        font-weight: 600;
+        font-size: medium;
+        margin: 10px;
+        margin-left: -2px;
+    }
 }
 
 .pricing__price {
@@ -1095,8 +1142,8 @@ p {
 
     .nav-logo {
         margin-top: 10px;
-        height: 60px;
-        width: 45px;
+        height: 45px;
+        width: 30px;
     }
 
     .circle-nav-right {
@@ -1166,15 +1213,18 @@ p {
         justify-items: center;
         z-index: 2;
     }
+
     #youtube-vid {
         text-align: center;
         height: 60vh;
         align-items: center;
     }
+
     #youtube-vid-frame {
         width: 90%;
         height: 25vh;
     }
+
     .clients__text {
         width: 80%;
     }
@@ -1254,19 +1304,23 @@ p {
     .header {
         justify-content: space-evenly;
     }
+
     .heading--primary {
         font-size: 3rem;
     }
+
     .heading--tertiary {
         font-size: 2rem;
         line-height: 3.5rem;
         margin-bottom: 0rem;
         margin-top: 2rem;
     }
+
     .header .left form {
         margin-top: 1rem;
         width: 90%;
     }
+
     .header__img__market {
         height: 300px;
     }
