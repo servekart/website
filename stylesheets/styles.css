@@ -288,6 +288,10 @@ p {
     align-self: center;
 }
 
+.navbar__list-item-download-button {
+    display: none;
+}
+
 .navbar__list-item a:link,
 .navbar__list-item a:visited {
     opacity: 0.7;
@@ -1110,6 +1114,11 @@ p {
     }
 
     .navbar__list-item {
+        margin: 2.5rem 0;
+    }
+
+    .navbar__list-item-download-button {
+        display: block;
         margin: 2.5rem 0;
     }
 
